@@ -2,7 +2,7 @@
  ============================================================================
  Name        : TP_1.c
  Author      : 
- Version     :
+ Version     : 1.0
  Copyright   : 
  Description : Hello World in C, Ansi-style
  ============================================================================
@@ -12,6 +12,6 @@
 #include <stdlib.h>
 
 int main(void) {
-	puts(""); /* prints  */
-	return EXIT_SUCCESS;
+
+	return 0;
 }
