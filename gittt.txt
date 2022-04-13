@@ -1,0 +1,10 @@
+git status
+git add .
+git commit -m "lalal"
+git push
+exit
+
+git status (ver su existen cambios)
+git add -A (agregar todos los cambios)
+git commit -m "comentario" (agregar comentario)
+git push (actualizar el github online)

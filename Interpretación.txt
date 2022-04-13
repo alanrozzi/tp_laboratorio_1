@@ -1,0 +1,37 @@
+
+RESOLUCION:
+
+DEFINIR: setbuf(stdout,NULL);
+
+A) Dos vuelos: Latam y Aerolíneas Argentinas.
+Con "printf" coloco los títulos del menú para que el usuario sepa qué hace cada opción del mismo. Se ingresan con números. "scanf" para tomar el valor de la respuesta del menú.	
+
+B) Para el menú se utiliza un "do while" porque necesitamos que entre por primera vez sí o sí. La condición tiene que ser distinta de '6' ya que dentro de este mismo bucle va a existir un "switch" para intercambiar entre distintos números del menú (se va a mostrar de nuevo cada vez que se ingrese un número)
+
+C) MENU: utilizar "switch" para 6 opciones (en números) incluido para salir.
+
+	1. Se ingresa los kilómetros del vuelo que se quiere realizar, un solo dato. Se lo debería pedir.
+	
+Se pide mediante 'printf' y se guarda en una variable con 'scanf'. No debe ser negativo o cero, se necesita validar para que sea positivo.
+
+
+
+	2. Se piden los precios de ambos vuelos (L y AA)
+
+Se pide medianten 'printf' y se guardan en dos variables con 'scanf'. No debe ser negativo o cero, se necesita validar para que sea positivo.
+
+
+
+	3. Calcula ciertos costos con los datos de los vuelos previamente ingresados, no se informan, solo se generan los cálculos. Si no hay datos ingresados hay que informarlo. Necesariamente hay que usar funciones.
+	
+
+
+	4. Se informa los resultados de los calculos del punto 3 con sus respectivas aerolíneas y como se muestra en el pdf. 
+
+
+
+	5. Si se apreta 5, se cargan datos hardcodeados (ya puestos en variables, como constantes. No se informan a menos que se presione el 3 y 4 (calcular y mostrar), 
+
+
+
+	6. Se cierra el programa.
