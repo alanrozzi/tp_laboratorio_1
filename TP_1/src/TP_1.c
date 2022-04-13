@@ -2,7 +2,7 @@
  ============================================================================
  Name        : TP_1.c
  Author      : 
- Version     : 1.0
+ Version     : Completo 1.0
  ============================================================================
  */
 
@@ -143,6 +143,43 @@ int main(void) {
 				kilometros=7090;
 				precioAerolineas=162965;
 				precioLatam=159339;
+
+
+				//a) Tarjeta de débito (descuento 10%)
+				precioDebitoAerolineas=PorcentajeDelPrecio(precioAerolineas,0.9);
+				precioDebitoLatam=PorcentajeDelPrecio(precioLatam,0.9);
+				//b) Tarjeta de crédito (interés 25%)
+				precioCreditoAerolineas=PorcentajeDelPrecio(precioAerolineas,1.25);
+				precioCreditoLatam=PorcentajeDelPrecio(precioLatam,1.25);
+				//c) Bitcoin (1BTC -> 4606954.55 Pesos Argentinos
+				bitcoinAerolineas=PesosABitcoin(precioAerolineas);
+				bitcoinLatam=PesosABitcoin(precioLatam);
+				//d) Mostrar precio por km (precio unitario)
+				precioKmAerolineas=PrecioPorKM(precioAerolineas,kilometros);
+				precioKmLatam=PrecioPorKM(precioLatam,kilometros);
+				//e) Mostrar diferencia de precio ingresada (Latam - Aerolíneas)
+				diferenciaPrecios=DiferenciaPositiva(precioLatam,precioAerolineas);
+				//diferenciaPrecios=HacerPositivo(diferenciaPrecios); dentro de DiferenciaPositiva
+				banderaCalculo=1;
+
+
+				printf("\nKilómetros ingresados: %.2fkm",kilometros);
+
+				printf("\n\nPrecio de Latam: $%.2f",precioAerolineas);
+				printf("\na) Precio con tarjeta de débito: $%.2f",precioDebitoAerolineas);
+				printf("\nb) Precio con tarjeta de crédito: $%.2f",precioCreditoAerolineas);
+				printf("\nc) Precio pagando con bitcoin: %f BTC",bitcoinAerolineas);
+				printf("\nd) Precio por kilómetro unitario: $%.2f",precioKmAerolineas);
+
+				printf("\n\nPrecio de Aerolíneas Argentina: $%.2f",precioLatam);
+				printf("\na) Precio con tarjeta de débito: $%.2f",precioDebitoLatam);
+				printf("\nb) Precio con tarjeta de crédito: $%.2f",precioCreditoLatam);
+				printf("\nc) Precio pagando con bitcoin: %f BTC",bitcoinLatam);
+				printf("\nd) Precio por kilómetro unitario: $%.2f",precioKmLatam);
+
+				printf("\n\nLa diferencia de precio es: $%.2f",diferenciaPrecios);
+				printf("\n\n");
+
 
 				banderaSinDatos=1;
 				break;
