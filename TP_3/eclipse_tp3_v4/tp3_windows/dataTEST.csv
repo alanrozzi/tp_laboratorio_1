@@ -1,0 +1,6 @@
+id,name,lastname,price,flycode,typePassenger,statusFlight
+1001,ROZZZZi,asdadsa,3000.00,IB0800A,FirstClass,Aterrizado
+1,Lou,ALPACAA,10000.00,BA2491A,FirstClass,Aterrizado
+19,Park,Espinoza,30000.00,MM0987B,FirstClass,En Horario
+143,Jenna,Espinoza,25000.00,IB0800A,EconomyClass,Aterrizado
+580,Delaney,Palma,50000.00,HY4567D,FirstClass,Demorado
