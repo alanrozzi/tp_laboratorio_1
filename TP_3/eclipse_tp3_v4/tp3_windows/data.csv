@@ -1000,3 +1000,6 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 999,Tamarra,Navarro,15000.00,MM0987B,EconomyClass,En Horario
 1000,Saleem,Torres,20000.00,MM0987B,EconomyClass,En Horario
 1001,dsadsa,dsadsa,20000.00,BA2491A,EconomyClass,Aterrizado
+1003,DATA,TEST,20000.00,BA2491A,FirstClass,Aterrizado
+1004,Dsadsa,Lalal,20000.00,BA2491A,FirstClass,Aterrizado
+1005,La La,La La,20000.00,BA2491A,FirstClass,Aterrizado

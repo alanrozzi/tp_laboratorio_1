@@ -19,10 +19,6 @@
      8. Guardar los datos de los pasajeros en el archivo data.csv (modo texto).
      9. Guardar los datos de los pasajeros en el archivo data.csv (modo binario).
     10. Salir
-
-    NOTA: Previamente se cargo dos pasajeros (1001 y 1002)
-    se dio de baja a 1002 por lo que el nuevo pasajero
-    tendra ID = 1003.
 *****************************************************/
 int main()
 {
